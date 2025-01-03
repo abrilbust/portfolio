@@ -17,6 +17,8 @@
 ::selection {
   color: black;
   background-color: #bea060;
+  background-size: cover; 
+        
 }
 header {
   width: 100%;
