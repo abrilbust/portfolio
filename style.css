@@ -17,7 +17,12 @@
 ::selection {
   color: black;
   background-color: #bea060;
-  height: 2000px;
+
+  body {
+    background-color: black;
+    height: 2000px;
+}
+
         
 }
 header {
