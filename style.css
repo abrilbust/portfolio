@@ -62,6 +62,26 @@ header {
   line-height: 2;
 }
 
+button {
+  padding: 20px 10px;
+  border: 2px solid #bea060;
+  background: transparent;
+  width: 47%;
+  color: white;
+  margin-right: 15px;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #bea060;
+  transition: 0.7s;
+}
+.btn {
+  width: 97%;
+  background-color: #bea060;
+}
 .header-left-side h3 {
   color: #c1bfbf;
   padding-top: 80px;
