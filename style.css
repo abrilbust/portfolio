@@ -56,26 +56,51 @@ header {
   color: #c1bfbf;
   line-height: 2;
 }
-button {
-  padding: 20px 10px;
-  border: 2px solid #bea060;
-  background: transparent;
-  width: 47%;
-  color: white;
-  margin-right: 15px;
-  font-family: "Inter", sans-serif;
-  font-size: 20px;
-  text-transform: uppercase;
-  cursor: pointer;
-}
-button:hover {
+
+/* Nav Bar Style*/
+ul {
+  display: inline-block;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
   background-color: #bea060;
-  transition: 0.7s;
+  width: 100%;
+  left: 0;
+  overflow: hidden;
 }
-.btn {
-  width: 97%;
-  background-color: #bea060;
+
+li{
+  float: left;
 }
+
+li a {
+ display: block;
+ text-decoration: none;
+ color: black;
+ font-size: 18px;
+ text-align: center;
+ display: block; 
+ width: 60px;
+ padding: 25px 30px;
+}
+
+li a:hover {
+  background-color: black;
+  font-weight: bold;
+  font-size: 18x;
+  color: #bea060;
+}
+
+div.sticky{
+  color: black;
+  position: sticky;
+  background-color: blue;
+  text-align: center;
+  max-width: 50%;
+  top: 0; 
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
 .header-left-side h3 {
   color: #c1bfbf;
   padding-top: 80px;
@@ -86,14 +111,4 @@ button:hover {
   width: 670px;
   height: 884px;
   margin-top: 15%;
-}
-
-div.sticky{
-  color: black;
-  position: sticky;
-  background-color: lightblue;
-  text-align: center;
-  max-width: 50%;
-  top: 0; 
-  font-family: 'Open Sans Condensed', sans-serif;
 }
