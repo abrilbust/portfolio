@@ -34,6 +34,5 @@ Technologies Used:
 Frontend: HTML, CSS, JavaScript
 
 Contact:
-Feel free to contact me at
-Email: abrilbu@sas.upenn.edu
+Feel free to contact me at abrilbu@sas.upenn.edu
 
