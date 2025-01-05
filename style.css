@@ -80,6 +80,15 @@ button:hover {
   width: 97%;
   background-color: #bea060;
 }
+
+.top-left-button {
+    position: fixed;  
+    top: 10px;        
+    left: 10px;    
+    width: 47%;       
+    z-index: 1000;    
+}
+
 .header-left-side h3 {
   color: #c1bfbf;
   padding-top: 80px;
