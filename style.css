@@ -115,16 +115,6 @@ button:hover {
   margin-top: 15%;
 }
 
-.header-center h5 {
-  color: #bea060;
-  font-family: "Inter", sans-serif;
-  font-size: 26px;
-  line-height: 1.2em;
-  font-weight: 500;
-  letter-spacing: 2px;
-  padding: 10px;
-}
-
 /* Container to style the research page*/
 .container {
     display: flex; 
