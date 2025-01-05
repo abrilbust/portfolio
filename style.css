@@ -116,9 +116,3 @@ button:hover {
 }
 
 
-h1 {
-  font-family: "Poppins", sans-serif; /* Same font-family as the global */
-  font-size: 48px; /* Adjust to desired size */
-  color: #ff6347; /* Change to desired color */
-  margin: 20px 0; /* Add some margin if needed */
-}
