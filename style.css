@@ -94,13 +94,4 @@ button:hover {
   margin-top: 15%;
 }
 
-div.sticky{
-  color: black;
-  position: sticky;
-  background-color: blue;
-  text-align: center;
-  max-width: 50%;
-  top: 0; 
-  font-family: 'Open Sans Condensed', sans-serif;
-}
 
