@@ -81,12 +81,26 @@ button:hover {
   background-color: #bea060;
 }
 
+
 .top-left-button {
-    position: fixed;  
-    top: 10px;        
-    left: 10px;    
-    width: 47%;       
-    z-index: 1000;    
+    position: sticky;
+    top: 0;       
+    left: 0;       
+    width: 47%;    
+    padding: 20px 10px; 
+    border: 2px solid #bea060; 
+    background: transparent;
+    color: white; 
+    font-family: "Inter", sans-serif; 
+    font-size: 20px; 
+    text-transform: uppercase; 
+    cursor: pointer; 
+    z-index: 1000;   
+}
+
+.top-left-button:hover {
+    background-color: #bea060;
+    transition: 0.7s;
 }
 
 .header-left-side h3 {
