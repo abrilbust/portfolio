@@ -83,10 +83,10 @@ button:hover {
 
 
 .top-left-button {
-    position: sticky;
-    top: 0;       
-    left: 0;       
-    width: 47%;    
+    position: fixed;
+    top: 20px;       
+    left: 20px;       
+    width: 47%;  
     padding: 20px 10px; 
     border: 2px solid #bea060; 
     background: transparent;
