@@ -31,7 +31,7 @@ Project documentation and Research Papers available for download
 -Dynamic Updates: Regularly updated to feature my most recent work
 
 Technologies Used:
-Frontend: HTML, CSS, JavaScript
+Frontend (HTML, CSS, JavaScript)
 
 Contact:
 Feel free to contact me at abrilbu@sas.upenn.edu
