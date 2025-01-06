@@ -117,19 +117,20 @@ button:hover {
 
 /* Container to style the research page*/
 .container {
-    display: flex; 
-    align-items: center; 
-}
-
-.text-container {
+    overflow: hidden; 
     padding: 10px; 
-    border: 2px solid #bea060; 
-    flex: 1;
-    box-sizing: border-box; 
 }
 
 
 .image {
-    max-height: 50%; 
-    margin-left: 10px; 
+    float: left;
+    max-width: 50%; 
+    margin-right: 10px; 
+}
+
+
+.text-container {
+    float: right;
+    text-align: right;
+    width: 45%; 
 }
