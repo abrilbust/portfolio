@@ -4,7 +4,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@600;700&display=swap");
 
 body {
-  background-color: #D2691E;
+  background-color: lightbrown;
   height: 2000px;
 }
 
@@ -19,22 +19,22 @@ body {
   font-family: "Poppins", sans-serif;
 }
 ::selection {
-  color: black;
-  background-color: #bea060;
+  color: lightbrown;
+  background-color: cream;
         
 }
 header {
   width: 100%;
   height: 160vh;
-  background-color: #D2691E;
+  background-color: lightbrown;
   display: flex;
 }
 .header-left-side {
   padding: 0 0 0 90px;
-  color: white;
+  color: lightblue;
 }
 .header-left-side h1 {
-  color: #bea060;
+  color: cream;
   line-height: 1.2em;
   font-size: 78px;
   padding-top: 20px;
@@ -42,7 +42,7 @@ header {
   font-weight: 400 !important;
 }
 .header-left-side h2 {
-  color: #bea060;
+  color: cream;
   font-family: "Inter", sans-serif;
   font-size: 26px;
   line-height: 1.2em;
@@ -56,13 +56,13 @@ header {
   font-family: "Inter", sans-serif;
   letter-spacing: 2px;
   font-size: 16px;
-  color: #c1bfbf;
+  color: cream;
   line-height: 2;
 }
 
 button {
   padding: 20px 10px;
-  border: 2px solid #bea060;
+  border: 2px solid cream;
   background: transparent;
   width: 47%;
   color: white;
@@ -73,12 +73,12 @@ button {
   cursor: pointer;
 }
 button:hover {
-  background-color: #bea060;
+  background-color: cream;
   transition: 0.7s;
 }
 .btn {
   width: 97%;
-  background-color: #bea060;
+  background-color: cream;
 }
 
 
@@ -88,7 +88,7 @@ button:hover {
     left: 20px;       
     width: 20%;  
     padding: 20px 10px; 
-    border: 2px solid #bea060; 
+    border: 2px solid cream; 
     background: transparent;
     color: white; 
     font-family: "Inter", sans-serif; 
@@ -99,12 +99,12 @@ button:hover {
 }
 
 .top-left-button:hover {
-    background-color: #bea060;
+    background-color: cream;
     transition: 0.7s;
 }
 
 .header-left-side h3 {
-  color: #c1bfbf;
+  color: lightblue;
   padding-top: 80px;
   font-family: "Inter", sans-serif;
   font-weight: 300;
