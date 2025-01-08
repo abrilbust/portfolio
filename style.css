@@ -125,14 +125,14 @@ button:hover {
 
 .image {
     float: right;
-    max-width: 50%; 
+    max-width: 45%; 
     margin-left: 20px; 
 }
 
 .text-container {
     float: left;
     text-align: left;
-    width: 50%;
+    width: 45%;
     margin-left: 20 px;
     box-sizing: border-box;
     color: #5ba8ff;
