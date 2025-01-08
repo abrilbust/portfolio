@@ -142,6 +142,45 @@ button:hover {
 }
 
 /*carousel*/
+ul {
+    list-style: none;
+}
+
+.figure {
+    margin: 0px;
+}
+
+img {
+    max-width: 100%;
+}
+
+a, a:hover, a:active {
+    outline: 0px !important;
+	text-decoration:none;
+}
+.clear {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    visibility: hidden;
+    width: 0;
+    height: 0;
+}
+.clearfix:before,
+.clearfix:after {
+    content: '\0020';
+    display: block;
+    overflow: hidden;
+    visibility: hidden;
+    width: 0;
+    height: 0;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/*carousel*/
 .carousel-fade .carousel-inner .item {
   transition-property: opacity;
 }
@@ -209,5 +248,3 @@ font-size: 50px;
 .caption strong { 
   font-size: 26px;
 }
-
-
