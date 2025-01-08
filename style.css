@@ -134,5 +134,6 @@ button:hover {
     margin-left: 20 px;
     box-sizing: border-box;
     color: #5ba8ff;
-
+    font-family: "Inter", sans-serif; 
+    font-size: 16px;
 }
