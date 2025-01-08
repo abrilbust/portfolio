@@ -119,6 +119,7 @@ button:hover {
 .container {
     overflow: hidden; 
     padding: 10px; 
+    align-items: center;
 }
 
 .image {
