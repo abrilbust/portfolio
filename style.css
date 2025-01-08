@@ -140,20 +140,73 @@ button:hover {
     font-size: 16px;
 }
 
-.left-border {
-    border-left: 5px solid #ece6d0;
-    height: 100vh; 
-    position: fixed; 
-    top: 0;
-    left: 0;
-    width: 60px; 
-    display: flex; 
-    align-items: flex-start; 
-    justify-content: center; 
-    padding: 10px; 
-    box-sizing: border-box; 
-    background-color: #ece6d0; 
+/*carousel*/
+.carousel-fade .carousel-inner .item {
+  transition-property: opacity;
 }
-
+.carousel-fade .carousel-inner .item,
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  opacity: 0;
+}
+.carousel-fade .carousel-inner .active,
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+  opacity: 1;
+}
+.carousel-fade .carousel-inner .next,
+.carousel-fade .carousel-inner .prev,
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  left: 0;
+  transform: translate3d(0,0,0);
+}
+.carousel-fade .carousel-control {
+  z-index: 2;
+}
+.carousel,
+.carousel-inner,
+.carousel-inner .item {
+  height: 100%;
+}
+.item:nth-child(1) {
+  background: darkred;
+}
+.item:nth-child(2) {
+  background: red;
+}
+.item:nth-child(3) {
+  background: orange;
+}
+.caption {
+position: absolute;
+  
+top: 64%;
+  right: 0;
+  padding: 25px; 
+  padding-left: 25px; 
+  left: 0;
+}
+.carousel-fade .carousel-control {
+  z-index: 2;
+  font-size: 90px;
+  top: 38%;
+}
+.carousel-indicators li { 
+  background-color: rgba(0,0,0,0);
+  border: 1px solid #FEE16F;
+  border-radius: 0;
+}
+.carousel-indicators .active { 
+  background-color: #FEE16F;
+}
+.caption h2{
+color:#FFE270;
+line-height:45px;
+font-size: 50px;
+}
+.caption strong { 
+  font-size: 26px;
+}
 
 
