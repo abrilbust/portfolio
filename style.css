@@ -116,7 +116,7 @@ button:hover {
   margin-top: 15%;
 }
 
-/* Container to style the research page*/
+/* Container to style the research and BUILD Nigeria page*/
 .container {
     display: flex;
   overflow: hidden; 
@@ -125,13 +125,13 @@ button:hover {
 }
 
 .image {
-  
+    float: right;
     max-width: 45%; 
     margin-left: 40px; 
 }
 
 .text-container {
-    
+    float:left;
     text-align: left;
     width: 45%;
     margin-right: 40px;
