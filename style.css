@@ -118,19 +118,20 @@ button:hover {
 
 /* Container to style the research page*/
 .container {
-    overflow: hidden; 
+    display: flex;
+  overflow: hidden; 
     padding: 10px; 
     align-items: center;
 }
 
 .image {
-    float: right;
+  
     max-width: 45%; 
     margin-left: 20px; 
 }
 
 .text-container {
-    float: left;
+    
     text-align: left;
     width: 45%;
     margin-left: 20 px;
