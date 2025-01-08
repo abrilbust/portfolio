@@ -98,6 +98,7 @@ button:hover {
     z-index: 1000;   
 }
 
+
 .top-left-button:hover {
     background-color: #5ba8ff;
     transition: 0.7s;
@@ -138,3 +139,21 @@ button:hover {
     font-family: "Inter", sans-serif; 
     font-size: 16px;
 }
+
+.left-border {
+    border-left: 5px solid #ece6d0;
+    height: 100vh; 
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 60px; 
+    display: flex; 
+    align-items: flex-start; 
+    justify-content: center; 
+    padding: 10px; 
+    box-sizing: border-box; 
+    background-color: #ece6d0; 
+}
+
+
+
