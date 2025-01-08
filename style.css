@@ -127,14 +127,14 @@ button:hover {
 .image {
   
     max-width: 45%; 
-    margin-left: 20px; 
+    margin-left: 40px; 
 }
 
 .text-container {
     
     text-align: left;
     width: 45%;
-    margin-left: 20 px;
+    margin-right: 40px;
     box-sizing: border-box;
     color: #5ba8ff;
     font-family: "Inter", sans-serif; 
