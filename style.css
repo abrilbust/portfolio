@@ -126,14 +126,16 @@ button:hover {
 
 .image {
     max-width: 45%; 
-    margin-right: 40px; 
+    margin-right: 20px; 
+    margin-left: 10px;
   order: 2;
 }
 
 .text-container {
     text-align: left;
     width: 45%;
-    margin-left: 40px;
+    margin-left: 20px;
+    margin-right: 10px;
     box-sizing: border-box;
     color: #5ba8ff;
     font-family: "Inter", sans-serif; 
