@@ -131,24 +131,25 @@ button:hover {
   overflow: hidden; 
     padding: 10px; 
     align-items: center;
+  justify-content: space-between;
 }
 
 .image {
-    max-width: 45%; 
-    margin-right: 20px; 
-    margin-left: 10px;
+   flex-grow: 1;
+  max-width: 45%; 
+    margin-right: 10px; 
   order: 2;
 }
 
 .text-container {
-    text-align: left;
+    flex-grow: 1;
     width: 45%;
-    margin-left: 20px;
-    margin-right: 10px;
+    margin-left: 10px;
     box-sizing: border-box;
     color: #5ba8ff;
     font-family: "Inter", sans-serif; 
     font-size: 16px;
     order: 1;
+  text-align: left;
 }
 
