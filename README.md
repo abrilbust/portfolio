@@ -10,7 +10,7 @@ Collection of final deliverables from my internship at the U.S. Department of Ve
 Final papers and analyses from my academic studies
 
 -Programming Mini Projects: 
-Small Games I coded 
+Small games I have coded 
 
 -Photos: 
 A glimpse into my interests, experiences, and travels, presented visually
