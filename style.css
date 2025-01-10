@@ -207,3 +207,7 @@ button:hover {
 .swiper-pagination-bullet {
   background: #000;
 }
+
+.swiper-pagination-bullet-active {
+  background: #f87858;
+}
