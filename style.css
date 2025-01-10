@@ -189,3 +189,20 @@ button:hover {
   width: 100%;
   height: auto;
 }
+
+/* Link Styles */
+.link {
+  color: #f87858;
+  font-size: 16px;
+  text-decoration: underline;
+}
+
+/* Swiper Navigation Styles */
+.swiper-button-next, .swiper-button-prev {
+  color: #000;
+}
+
+/* Swiper Pagination Styles */
+.swiper-pagination-bullet {
+  background: #000;
+}
