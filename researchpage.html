@@ -28,6 +28,46 @@ As a research intern at the U.S. Department of Veterans Affairs in Ann Arbor, MI
 		   </div>
 	
     </div>
+
+  <!-- Carousel container -->
+  <div class="carousel-container">
+    <div class="swiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <img src="nettercenter1.png" alt="Netter Center Image 1" />
+        </div>
+        <div class="swiper-slide">
+          <img src="nettercenter2.png" alt="Netter Center Image 2" />
+        </div>
+      </div>
+
+      <!-- Add Pagination -->
+      <div class="swiper-pagination"></div>
+
+      <!-- Add Navigation -->
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+    </div>
+  </div>
+
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script>
+    var swiper = new Swiper(".swiper", {
+      slidesPerView: 1,
+      spaceBetween: 10,
+      loop: true,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+	      dynamicBullets: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>
+  
 		
 </body>
 </html>
