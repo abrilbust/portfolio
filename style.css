@@ -175,31 +175,39 @@ button:hover {
   object-fit: cover;
 }
 
-  /* Center slide text vertically */
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  -webkit-justify-content: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  -webkit-align-items: center;
-  align-items: center;
-}
-
 .swiper-slide img {
   width: 100%;
   height: auto;
 }
 
-/* Link Styles */
-.link {
-  color: #f87858;
-  font-size: 16px;
-  text-decoration: underline;
+.caption {
+  position: absolute;
+top: 65%;
+  right: 0;
+  padding: 25px;
+  padding-left: 25px;
+  left: 0;
+}
+.carousel-fade .carousel-control {
+  z-index: 2;
+  font-size: 90px;
+  top: 38%;
+}
+.carousel-indicators li { 
+  background-color: rgba(0,0,0,0);
+  border: 1px solid #FEE16F;
+  border-radius: 0;
+}
+.carousel-indicators .active { 
+  background-color: #FEE16F;
+}
+.caption h2{
+color:#FFE270;
+line-height:45px;
+font-size: 50px;
+}
+.caption strong { 
+  font-size: 26px;
 }
 
 /* Swiper Navigation Styles */
