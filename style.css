@@ -137,14 +137,14 @@ button:hover {
 .image {
    flex-grow: 1;
   max-width: 45%; 
-    margin-right: 10px; 
+    margin-right: 20px; 
   order: 2;
 }
 
 .text-container {
     flex-grow: 1;
-    width: 45%;
-    margin-left: 10px;
+    flex-basis: 45%;
+    margin-left: 20px;
     box-sizing: border-box;
     color: #5ba8ff;
     font-family: "Inter", sans-serif; 
