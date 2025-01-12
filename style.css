@@ -176,7 +176,7 @@ button:hover {
 }
 
 .swiper-slide img {
-  width: auto;
+  width: 100%;
   height: 700px;
   object-fit: cover;
 }
