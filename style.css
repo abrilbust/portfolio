@@ -167,7 +167,7 @@ button:hover {
 
 .swiper {
   width: 100%;
-  height: 500px; /* Adjust height as needed */
+  height: 600px; /* Adjust height as needed */
 }
 
 .swiper-slide img{
@@ -225,6 +225,41 @@ font-size: 50px;
   background: #f87858;
 }
 
+.caption {
+  position: absolute;
+  top: 65%;
+  right: 0;
+  padding: 25px;
+  padding-left: 25px;
+  left: 0;
+}
+
+.carousel-fade .carousel-control {
+  z-index: 2;
+  font-size: 90px;
+  top: 38%;
+}
+
+.carousel-indicators li {
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid #FEE16F;
+  border-radius: 0;
+}
+
+.carousel-indicators .active {
+  background-color: #FEE16F;
+}
+
+.caption h2 {
+  color: #FFE270;
+  line-height: 45px;
+  font-size: 50px;
+}
+
+.caption strong {
+  font-size: 26px;
+}
+
 /* Iframe Container Styles */
 .iframe-container {
   display: flex;
@@ -237,3 +272,4 @@ font-size: 50px;
   margin: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
+
