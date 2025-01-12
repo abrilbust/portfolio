@@ -176,9 +176,9 @@ button:hover {
 }
 
 .swiper-slide img {
-  width: 100%;
-  height: auto;
-  object-fit: contain;
+  width: auto;
+  height: 700px;
+  object-fit: cover;
 }
 
 .caption {
