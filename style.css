@@ -183,11 +183,14 @@ button:hover {
 
 .caption {
   position: absolute;
-top: 65%;
-  right: 0;
-  padding: 25px;
-  padding-left: 25px;
-  left: 0;
+top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #FFE270;
+  background: rgba(0, 0, 0, 0.5); 
+  padding: 10px 20px;
+  border-radius: 10px;
 }
 .carousel-fade .carousel-control {
   z-index: 2;
@@ -223,41 +226,6 @@ font-size: 50px;
 
 .swiper-pagination-bullet-active {
   background: #f87858;
-}
-
-.caption {
-  position: absolute;
-  top: 65%;
-  right: 0;
-  padding: 25px;
-  padding-left: 25px;
-  left: 0;
-}
-
-.carousel-fade .carousel-control {
-  z-index: 2;
-  font-size: 90px;
-  top: 38%;
-}
-
-.carousel-indicators li {
-  background-color: rgba(0, 0, 0, 0);
-  border: 1px solid #FEE16F;
-  border-radius: 0;
-}
-
-.carousel-indicators .active {
-  background-color: #FEE16F;
-}
-
-.caption h2 {
-  color: #FFE270;
-  line-height: 45px;
-  font-size: 50px;
-}
-
-.caption strong {
-  font-size: 26px;
 }
 
 /* Iframe Container Styles */
