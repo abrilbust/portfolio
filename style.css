@@ -189,7 +189,6 @@ button:hover {
 .caption {
   position: absolute;
   bottom: 20px;
-top: 50%;
   left: 50%;
   transform: translateX(-50%);
   text-align: center;
@@ -198,11 +197,7 @@ top: 50%;
   padding: 10px 20px;
   border-radius: 10px;
 }
-.carousel-fade .carousel-control {
-  z-index: 2;
-  font-size: 90px;
-  top: 38%;
-}
+
 .carousel-indicators li { 
   background-color: rgba(0,0,0,0);
   border: 1px solid #FEE16F;
@@ -221,6 +216,15 @@ font-size: 50px;
   font-size: 26px;
   display: block;
   margin-top: 10px;
+}
+
+.caption .swiper-pagination {
+  position: relative;
+  top: -10px; /* Adjust to position the pagination between the lines */
+  left: 50%;
+  transform: translateX(-50%);
+  display: inline-block;
+  padding: 0; /* Remove padding */
 }
 
 /* Swiper Navigation Styles */
