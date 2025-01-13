@@ -246,15 +246,17 @@ font-size: 50px;
 .iframe-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
   padding: 20px;
+  box-sizing: border-box;
 }
 
 .iframe-container iframe {
- flex: 1 1 calc(33.333% - 20px);
-  margin: 10px;
+ flex: 1 1 calc(33.333% - 40px);
+  margin: 20px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   height: calc(100vh / 2 - 40px);
-  max-width: calc(33.333% - 20px);
+  max-width: calc(33.333% - 40px);
+  box-sizing: border-box;
 }
 
