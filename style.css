@@ -183,9 +183,10 @@ button:hover {
 
 .caption {
   position: absolute;
+  bottom: 20px;
 top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translateX(-50%);
   text-align: center;
   color: #FFE270;
   background: rgba(0, 0, 0, 0.5); 
@@ -209,19 +210,22 @@ top: 50%;
 color:#FFE270;
 line-height:45px;
 font-size: 50px;
+  margin: 0;
 }
 .caption strong { 
   font-size: 26px;
+  display: block;
+  margin-top: 10px;
 }
 
 /* Swiper Navigation Styles */
 .swiper-button-next, .swiper-button-prev {
-  color: #000;
+  color: #FFF;
 }
 
 /* Swiper Pagination Styles */
 .swiper-pagination-bullet {
-  background: #000;
+  background: #FFF;
 }
 
 .swiper-pagination-bullet-active {
