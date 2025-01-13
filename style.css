@@ -126,6 +126,11 @@ button:hover {
   margin-top: 15%;
 }
 
+.content-background {
+  background-color: #ece6d0;
+  padding: 20px;
+}
+
 /* Container to style the research and BUILD Nigeria pages*/
 .container {
     display: flex;
