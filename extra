@@ -1,20 +1,10 @@
-    </style>
-
-  <style>
-        .image-container {
-            display: flex; 
-            justify-content: space-between; 
-            margin-top: 20px; 
-		margin-left: 10%;
-		margin-right: 10%;
-        }
-
-        .image-container img {
-            max-width: 45%; 
-            height: auto; 
-        }
-    </style>
-	  
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Abril Bustamante's Portfolio-BUILD Nigeria</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
   </head>
 
 	<body>
@@ -23,22 +13,24 @@
         </a>
       
     <h5 style="color: #ece6d0; margin: 20px; font-family: 'Arial', sans-serif; font-size: 36px; text-align: center;">
-        My Work as a Mentor at the Netter Center
+        My Work as an Intern at BUILD Nigeria
     </h5>
 
-    <p>
-  <div class="full-width-text">
-	   During my time with the Netter Center for Community Partnerships, I worked on a Youth Participatory Action Research (YPAR) project advocating for mental health awareness among high school students in West Philadelphia. Fostering critical thinking, collaboration, and leadership, students were empowered to identify and analyze mental health issues in their communities and advocate for evidence-based change. As a mentor, I guided students in project design, data analysis, and focus group facilitation. Together, we offered actionable recommendations for improving school-based mental health resources, highlighting the significance of accessible counseling and peer support. I contributed to a research process that advanced both personal growth and community impact. The final deliverable, The final deliverable, linked <a href="https://docs.google.com/presentation/d/1RjzOFUrXJfU-yTt31RtqbThFNmDMffEU1MUnsBjIfjQ/edit?usp=sharing" target="_blank" style="color: #f87858; font-size: 16px; text-decoration: underline;">here</a>, reflects the collaborative efforts of mentors and students to address pressing social challenges.  
-	
-  </div>
+		<div class="content-background">
+<div class="container">
+        <img src="BUILD Nigeria Flyer.png" alt="Description of Image" class="image">
+        <div class="text-container">
+            <p>
 
-<div class="image-container">
-	<img src="nettercenter1.png" alt="Netter Center Image 1">
-	<img src="nettercenter2.png" alt="Netter Center Image 2">
-</div>
-		
-   </p>
-
+	BUILD Nigeria is a non-profit and NGO dedicated to preparing Nigerian pre-college students for world-class colleges and universities. As an internal curriculum intern, my work involved engaging with different stakeholders of the cohort program to understand how best to make improvements, and refine internal documents to make the curriculum scalable and replicable. I interviewed alumni students to gather feedback on their goals, experiences, and suggestions for program improvements. Using this data, I collaborated with the team to determine realistic and actionable enhancements based on our needs and resources. To aid in replication and scalability, I created a master program document that details all aspects of the program, making it easier for others to run. Additionally, I compiled actionable recommendations for curriculum inclusions, highlighting areas such as integration of cohort student feedback, increased test prep center funding, and alumni involvement in curriculum development. Although these internal documents are confidential, I also developed a flyer for client engagement with students and their parents which is attached to the right. Furthermore, my final deliverables included designing a slidedeck the team can used when pitching to investors as well as two presentations to the team to update them on my work. For more information about BUILD Nigeria, please visit their <a
+        href="https://www.buildng.org/"
+        target="_blank"
+        style="color: #f87858; font-size: 16px; text-decoration: underline;"
+        >website</a
+      >.   
+	    
+	    </p>
+        </div>
+    </div>
 </body>
 </html>
-	
