@@ -178,6 +178,7 @@ button:hover {
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
 }
 
 .swiper-slide img {
@@ -218,14 +219,14 @@ font-size: 50px;
   margin-top: 5px;
 }
 
-.caption .swiper-pagination {
-  position: relative;
-  top: -5px; /* Adjust to position the pagination between the lines */
+.swiper-pagination {
+  position: absolute;
+  bottom: 80px; /* Position it between the captions */
   left: 50%;
   transform: translateX(-50%);
-  display: inline-block;
-  padding: 0; /* Remove padding */
-}
+  z-index: 10;
+  text-align: center;
+  width: auto;
 
 /* Swiper Navigation Styles */
 .swiper-button-next, .swiper-button-prev {
