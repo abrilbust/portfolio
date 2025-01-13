@@ -169,12 +169,6 @@ button:hover {
   width: 100%;
   margin: 0 auto; /* Center carousel */
 }
- 
-.second-carousel {
-  background-color: black; 
-  padding: 40px 0; 
-  color: #ece6d0; 
-}
 
 .swiper {
   width: 100%;
