@@ -69,9 +69,15 @@
       <div class="swiper-wrapper">
         <div class="swiper-slide">
           <img src="nettercenter1.png" alt="" />
+		<div class="caption">
+            <h2>EMPOWER</h2>
+          </div>
         </div>
         <div class="swiper-slide">
           <img src="nettercenter2.png" alt="" />
+		<div class="caption">
+            <h2>IMPACT</h2>
+		</div>
         </div>
       </div>
 
@@ -90,6 +96,10 @@
       slidesPerView: 1,
       spaceBetween: 10,
       loop: true,
+	     autoplay: {
+        delay: 5000, // 5 seconds
+        disableOnInteraction: false,
+      },
       pagination: {
         el: ".swiper-pagination",
         clickable: true,
@@ -105,4 +115,11 @@
   
   </body>
 </html>
+
+
+      
+	
+
+  
+		
 
