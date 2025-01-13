@@ -215,12 +215,12 @@ font-size: 50px;
 .caption strong { 
   font-size: 26px;
   display: block;
-  margin-top: 10px;
+  margin-top: 5px;
 }
 
 .caption .swiper-pagination {
   position: relative;
-  top: -10px; /* Adjust to position the pagination between the lines */
+  top: -5px; /* Adjust to position the pagination between the lines */
   left: 50%;
   transform: translateX(-50%);
   display: inline-block;
