@@ -249,14 +249,15 @@ font-size: 50px;
   justify-content: space-around;
   padding: 20px;
   box-sizing: border-box;
+  bakground-color: #ece6d0;
 }
 
 .iframe-container iframe {
- flex: 1 1 calc(33.333% - 40px);
+ flex: 1 1 auto;
   margin: 20px;
+  padding: 20px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   height: calc(100vh / 2 - 40px);
-  max-width: calc(33.333% - 40px);
   box-sizing: border-box;
 }
 
