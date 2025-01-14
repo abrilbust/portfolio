@@ -261,3 +261,43 @@ font-size: 50px;
   box-sizing: border-box;
 }
 
+.contact-section {
+  background-color: #ece6d0;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.contact-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 0;
+}
+
+.contact-icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+
+.contact-item span,
+.contact-item a {
+  color: #000;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.contact-item a:hover {
+  text-decoration: underline;
+}
+
+
+
+
+  
