@@ -1,5 +1,5 @@
 # Welcome to Abril Bustamante's Portfolio
-This repository serves as a place to locate my personal website, showcasing my professional and academic projects. It is a hub for my research, papers, and other endeavors from my academic journey. 
+This repository serves as a place to locate my personal website, showcasing my professional and academic projects. It is a hub for my research, papers, and other endeavors from my academic journey. The link is located at the top right of the repository and also here: abrilbust.github.io/portfolio/.
 
 What You Will Find Here: 
 
