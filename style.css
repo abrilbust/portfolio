@@ -261,11 +261,7 @@ font-size: 50px;
   box-sizing: border-box;
 }
 
-.contact-section {
-  background-color: #ece6d0;
-  padding: 20px 0;
-  text-align: center;
-}
+
 
 .contact-container {
  max-width: 800px;
