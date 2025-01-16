@@ -287,6 +287,12 @@ font-size: 50px;
   margin-right: 10px;
 }
 
+  .contact-icon-1 {
+  width: 18px;
+  height: 18px;
+  margin-right: 10px;
+}
+
 .contact-item span,
 .contact-item a {
   color: #000; 
