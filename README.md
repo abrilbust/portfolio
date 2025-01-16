@@ -7,7 +7,7 @@ What You Will Find Here:
 Collection of final deliverables from my internship at the U.S. Department of Veterans Affairs covering my project on COPD
 
 -Writing & Coursework: 
-Final papers and analyses from my academic studies
+Final papers and analyses from my activities
 
 -Programming Mini Projects: 
 Small games I have coded 
@@ -22,7 +22,7 @@ Features of the Website:
 
 
 -Downloadable Content: 
-Project documentation and Research Papers available for download
+Project documentation and Research Papers available to view
 
 -Interative Demos: Try out some of the coding games in action
 
