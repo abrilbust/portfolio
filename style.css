@@ -36,7 +36,6 @@ header {
   height: auto;
   background-color: black;
   display: flex;
-  flex-direction: column;
 }
 .header-left-side {
   padding: 0 0 0 90px;
