@@ -8,6 +8,11 @@
     <link rel="stylesheet" href="style.css" />
 
     <style>
+      body {
+        background: #000 !important;
+        margin: 0;
+        padding: 0;
+      }
       .full-width-text {
         color: #5ba8ff;
         font-family: "Inter", sans-serif;
@@ -15,15 +20,97 @@
         text-align: left;	
         margin-bottom: 20px;
       }
-      .carousel-container {
+      .carousel-container,
+      .second-carousel .carousel-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
         margin-bottom: 0px;
+      }
+      .swiper {
+        /* 12 inches = 1152px at 96dpi */
+        width: 1152px;
+        max-width: 100vw;
+        background: #111;
+        border-radius: 16px;
+        box-shadow: 0 6px 30px 0 rgba(0,0,0,0.4);
+        position: relative;
+        margin: 0 auto;
+        /* Center horizontally */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      .swiper-slide {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+      }
+      .swiper-slide img {
+        width: 100%;
+        max-width: 1152px;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+        border-radius: 10px;
+        background: #222;
+      }
+      .caption {
+        background: rgba(0,0,0,0.8);
+        color: #ece6d0;
+        width: 100%;
+        max-width: 1152px;
+        padding: 16px 0 12px 0;
+        margin: 0 auto;
+        text-align: center;
+        border-radius: 0 0 10px 10px;
+        position: relative;
+        font-size: 1.2em;
+      }
+      .caption h2 {
+        margin: 0 0 4px 0;
+        font-size: 1.4em;
+        letter-spacing: 1px;
+      }
+      .caption strong {
+        font-size: 1.05em;
+        font-weight: bold;
+        display: block;
       }
       .second-carousel {
         padding: 20px 0px; 
         width: 100%;
         margin: 0 auto;
       }
-
+      /* Swiper navigation and pagination style tweaks for visibility */
+      .swiper-pagination-bullet {
+        background: #ece6d0;
+        opacity: 0.7;
+      }
+      .swiper-button-next,
+      .swiper-button-prev {
+        color: #ece6d0;
+        filter: drop-shadow(0 0 2px #000);
+      }
+      @media (max-width: 1200px) {
+        .swiper,
+        .caption,
+        .swiper-slide img {
+          max-width: 96vw;
+        }
+      }
+      @media (max-width: 700px) {
+        .swiper,
+        .caption,
+        .swiper-slide img {
+          max-width: 100vw;
+        }
+        .caption {
+          font-size: 1em;
+          padding: 10px 0 8px 0;
+        }
+      }
     </style>
   </head>
   
@@ -190,8 +277,30 @@
           style="color: #f87858; font-size: 16px; text-decoration: underline;"
           >Link to Final Organic Chemistry II Paper</a>
 </div>
-   
 
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+      var carousels = document.querySelectorAll('.swiper');
+      carousels.forEach(function(carousel){
+        new Swiper(carousel, {
+          slidesPerView: 1,
+          spaceBetween: 10,
+          loop: true,
+          autoplay: {
+            delay: 3000,
+            disableOnInteraction: false,
+          },
+          pagination: {
+            el: carousel.querySelector('.swiper-pagination'),
+            clickable: true,
+            dynamicBullets: true,
+          },
+          navigation: {
+            nextEl: carousel.querySelector('.swiper-button-next'),
+            prevEl: carousel.querySelector('.swiper-button-prev'),
+          },
+        });
+      });
+    </script>
   </body>
 </html>
-
